@@ -1,0 +1,17 @@
+.music-sheet-g-key {
+    -fx-background-image: url('../img/g-key-trans.png');
+    -fx-background-position: center;
+    -fx-background-repeat: stretch;
+}
+
+.music-sheet-bckgrnd {
+    -fx-background-image: url('../img/background.png');
+    -fx-background-position: center center;
+    -fx-background-repeat: repeat-x;
+}
+
+.music-sheet-bar {
+    -fx-border-color: null black null null;
+    -fx-border-style: solid;
+    -fx-border-width: 0 1 0 0;
+}

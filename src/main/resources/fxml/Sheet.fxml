@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox prefHeight="891.0" prefWidth="630.0" spacing="32.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.vajasoft.musicsheet.FXMLController">
+   <children>
+      <StackPane styleClass="music-sheet-bckgrnd">
+         <children>
+            <HBox maxHeight="-Infinity" prefHeight="46.0">
+               <children>
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+               </children>
+               <padding>
+                  <Insets left="32.0" />
+               </padding>
+            </HBox>
+            <BorderPane>
+               <left>
+                  <Pane prefHeight="72.0" prefWidth="31.0" styleClass="music-sheet-g-key" BorderPane.alignment="CENTER" />
+               </left>
+            </BorderPane>
+         </children>
+      </StackPane>
+      <StackPane styleClass="music-sheet-bckgrnd">
+         <children>
+            <HBox maxHeight="-Infinity" prefHeight="46.0">
+               <children>
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+               </children>
+               <padding>
+                  <Insets left="32.0" />
+               </padding>
+            </HBox>
+            <BorderPane>
+               <left>
+                  <Pane prefHeight="72.0" prefWidth="31.0" styleClass="music-sheet-g-key" BorderPane.alignment="CENTER" />
+               </left>
+            </BorderPane>
+         </children>
+      </StackPane>
+      <StackPane styleClass="music-sheet-bckgrnd">
+         <children>
+            <HBox maxHeight="-Infinity" prefHeight="46.0">
+               <children>
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+               </children>
+               <padding>
+                  <Insets left="32.0" />
+               </padding>
+            </HBox>
+            <BorderPane>
+               <left>
+                  <Pane prefHeight="72.0" prefWidth="31.0" styleClass="music-sheet-g-key" BorderPane.alignment="CENTER" />
+               </left>
+            </BorderPane>
+         </children>
+      </StackPane>
+      <StackPane styleClass="music-sheet-bckgrnd">
+         <children>
+            <HBox maxHeight="-Infinity" prefHeight="46.0">
+               <children>
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+               </children>
+               <padding>
+                  <Insets left="32.0" />
+               </padding>
+            </HBox>
+            <BorderPane>
+               <left>
+                  <Pane prefHeight="72.0" prefWidth="31.0" styleClass="music-sheet-g-key" BorderPane.alignment="CENTER" />
+               </left>
+            </BorderPane>
+         </children>
+      </StackPane>
+      <StackPane styleClass="music-sheet-bckgrnd">
+         <children>
+            <HBox maxHeight="-Infinity" prefHeight="46.0">
+               <children>
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+               </children>
+               <padding>
+                  <Insets left="32.0" />
+               </padding>
+            </HBox>
+            <BorderPane>
+               <left>
+                  <Pane prefHeight="72.0" prefWidth="31.0" styleClass="music-sheet-g-key" BorderPane.alignment="CENTER" />
+               </left>
+            </BorderPane>
+         </children>
+      </StackPane>
+      <StackPane styleClass="music-sheet-bckgrnd">
+         <children>
+            <HBox maxHeight="-Infinity" prefHeight="46.0">
+               <children>
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+               </children>
+               <padding>
+                  <Insets left="32.0" />
+               </padding>
+            </HBox>
+            <BorderPane>
+               <left>
+                  <Pane prefHeight="72.0" prefWidth="31.0" styleClass="music-sheet-g-key" BorderPane.alignment="CENTER" />
+               </left>
+            </BorderPane>
+         </children>
+      </StackPane>
+      <StackPane styleClass="music-sheet-bckgrnd">
+         <children>
+            <HBox maxHeight="-Infinity" prefHeight="46.0">
+               <children>
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+               </children>
+               <padding>
+                  <Insets left="32.0" />
+               </padding>
+            </HBox>
+            <BorderPane>
+               <left>
+                  <Pane prefHeight="72.0" prefWidth="31.0" styleClass="music-sheet-g-key" BorderPane.alignment="CENTER" />
+               </left>
+            </BorderPane>
+         </children>
+      </StackPane>
+      <StackPane styleClass="music-sheet-bckgrnd">
+         <children>
+            <HBox maxHeight="-Infinity" prefHeight="46.0">
+               <children>
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+                  <HBox styleClass="music-sheet-bar" HBox.hgrow="ALWAYS" />
+               </children>
+               <padding>
+                  <Insets left="32.0" />
+               </padding>
+            </HBox>
+            <BorderPane>
+               <left>
+                  <Pane prefHeight="72.0" prefWidth="31.0" styleClass="music-sheet-g-key" BorderPane.alignment="CENTER" />
+               </left>
+            </BorderPane>
+         </children>
+      </StackPane>
+   </children>
+   <padding>
+      <Insets bottom="12.0" left="12.0" right="12.0" top="48.0" />
+   </padding>
+</VBox>
