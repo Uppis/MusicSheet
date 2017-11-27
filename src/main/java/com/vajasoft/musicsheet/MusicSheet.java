@@ -2,10 +2,9 @@ package com.vajasoft.musicsheet;
 
 import javafx.application.Application;
 import javafx.geometry.Insets;
-import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
+import javafx.scene.image.Image;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
 import javafx.scene.layout.Priority;
@@ -20,12 +19,13 @@ public class MusicSheet extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 //        Parent root = FXMLLoader.load(getClass().getResource("/fxml/Sheet.fxml"));
-        Pane root = createSheet("Sheet_1", 8, 5);
+        Pane root = createSheet("Sheet_1", 8, 4);
         
         Scene scene = new Scene(root);
         scene.getStylesheets().add("/styles/Styles.css");
         
         stage.setTitle("Music Sheet");
+        stage.getIcons().add(new Image("/img/app-icon.png"));
         stage.setScene(scene);
         stage.show();
     }
@@ -54,16 +54,15 @@ public class MusicSheet extends Application {
             bars.getChildren().add(createBar(id + "_Bar_" + i));
         }
         
-        BorderPane key = new BorderPane();
+        HBox key = new HBox();
         Pane gKey = new Pane();
         gKey.setPrefHeight(72);
         gKey.setPrefWidth(31);
         gKey.getStyleClass().add("music-sheet-g-key");
-        key.setLeft(gKey);
-        BorderPane.setAlignment(gKey, Pos.CENTER);
+        key.getChildren().add(gKey);
+        HBox.setHgrow(gKey, Priority.NEVER);
         
-        verse.getChildren().add(bars);
-        verse.getChildren().add(key);
+        verse.getChildren().addAll(bars, key);
         verse.setId(id);
         return verse;
     }
@@ -75,17 +74,4 @@ public class MusicSheet extends Application {
         bar.setId(id);
         return bar;
     }
-    
-    /**
-     * The main() method is ignored in correctly deployed JavaFX application.
-     * main() serves only as fallback in case the application can not be
-     * launched through deployment artifacts, e.g., in IDEs with limited FX
-     * support. NetBeans ignores main().
-     *
-     * @param args the command line arguments
-     */
-//    public static void main(String[] args) {
-//        launch(args);
-//    }
-
 }

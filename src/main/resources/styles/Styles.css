@@ -1,7 +1,8 @@
 .music-sheet-g-key {
-    -fx-background-image: url('../img/g-key-trans.png');
+    -fx-background-image: url('../img/g-key.png');
     -fx-background-position: center;
-    -fx-background-repeat: stretch;
+    -fx-background-size: stretch;
+    /*-fx-background-repeat: stretch;*/
 }
 
 .music-sheet-bckgrnd {
